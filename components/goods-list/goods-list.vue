@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-19 00:56:28
- * @LastEditTime: 2020-12-20 22:12:47
+ * @LastEditTime: 2020-12-22 15:18:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \hm_shop\components\goods-list\goods-list.vue
@@ -14,6 +14,7 @@
         <text>￥{{item.sell_price}}</text>
         <text>￥{{item.market_price}}</text>
       </view>
+       
       <view class="name">
         {{item.title}}
       </view>
